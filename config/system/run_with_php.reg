@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\php_auto_file\shell\Run]
+
+[HKEY_CLASSES_ROOT\php_auto_file\shell\Run\command]
+@="\"C:\\Users\\Daniele\\PortableApps\\MyApps\\ConEmuPack.150813g\\ConEmu.exe\" \"php \"\"%1\"\"\""
+
