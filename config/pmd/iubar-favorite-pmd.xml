@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+
+
+<!--
+
+Default rules are:
+
+    * Basic = rulesets/basic.xml.
+    * Naming = rulesets/naming.xml.
+    * Unused Code = rulesets/unusedcode.xml.
+    * Design = rulesets/design.xml.
+    * Import Statements = rulesets/imports.xml.
+    * JUnit Tests = rulesets/junit.xml.
+    * Strings = rulesets/strings.xml.
+    * Braces = rulesets/braces.xml.
+    * Code Size = rulesets/codesize.xml.
+    * Javabeans = rulesets/javabeans.xml.
+    * Coupling = rulesets/coupling.xml.
+    * Strict Exceptions = rulesets/strictexception.xml.
+    * Controversial = rulesets/controversial.xml.
+
+
+-->
+
+
+<ruleset name="Favorites">
+  <description>
+  The Favorites ruleset contains links to rules that I like to use.
+  I like the basic.xml, unusedcode.xml, and import.xml, and some of
+  the rules in design.xml, strings.xml, and controversial.xml.
+  </description>
+
+  <rule ref="rulesets/basic.xml" />
+  <rule ref="rulesets/unusedcode.xml" />
+  <rule ref="rulesets/import.xml" />
+  <rule ref="rulesets/design.xml/SimplifyBooleanReturnsRule" />
+  <rule ref="rulesets/design.xml/SwitchStmtsShouldHaveDefault" />
+  <rule ref="rulesets/strings.xml/StringToString" />
+  <rule ref="rulesets/strings.xml/StringInstantiation" />
+  <rule ref="rulesets/controversial.xml/UnnecessaryConstructorRule" />
+  <rule ref="rulesets/controversial.xml/NullAssignment" />
+  <rule ref="rulesets/controversial.xml/UnusedModifier" />
+
+</ruleset>
